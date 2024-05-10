@@ -1,0 +1,115 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 350,
+	"windowMinHeight": 150,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 15,
+	"bottomMargin": 13,
+	"events": [
+		"onLoad",
+		"onCloseBox",
+		"onUnload",
+		"onTimer"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"ALrT_OK_btn_l": {
+					"type": "button",
+					"text": "OK",
+					"top": 110,
+					"left": 305,
+					"width": 79,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move",
+					"focusable": false,
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Return]",
+					"defaultButton": true,
+					"fontSize": 13,
+					"method": "ObjectMethods/ALrT_OK_btn_l.4dm"
+				},
+				"ALrT_AutoCloseMsg_t": {
+					"type": "input",
+					"left": 15,
+					"top": 133,
+					"width": 368,
+					"height": 14,
+					"dataSource": "Form:C1466.ALrT_AutoCloseMsg_t",
+					"sizingY": "move",
+					"enterable": false,
+					"focusable": false,
+					"contextMenu": "none",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 10
+				},
+				"ALrT_Icon_pic": {
+					"type": "input",
+					"left": 15,
+					"top": 15,
+					"width": 48,
+					"height": 48,
+					"dataSourceTypeHint": "picture",
+					"enterable": false,
+					"contextMenu": "none",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"events": [
+						"onLoad"
+					],
+					"method": "ObjectMethods/ALrT_Icon_pic.4dm"
+				},
+				"ALrT_Msg_t": {
+					"type": "input",
+					"left": 78,
+					"top": 15,
+					"width": 308,
+					"height": 80,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"enterable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"styledText": true,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					],
+					"method": "ObjectMethods/ALrT_Msg_t.4dm",
+					"contextMenu": "none"
+				}
+			}
+		}
+	],
+	"geometryStamp": 55,
+	"formSizeAnchor": "ALrT_OK_btn_l",
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

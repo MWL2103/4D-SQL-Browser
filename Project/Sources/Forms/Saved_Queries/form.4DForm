@@ -1,0 +1,155 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 400,
+	"windowMinHeight": 200,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Save As:",
+					"top": 13,
+					"left": 17,
+					"width": 69,
+					"height": 16
+				},
+				"Input": {
+					"type": "input",
+					"left": 81,
+					"top": 13,
+					"width": 326,
+					"height": 17,
+					"dataSource": "Save_As_t"
+				},
+				"LB_Saved_Queries": {
+					"type": "listbox",
+					"left": 17,
+					"top": 40,
+					"width": 390,
+					"height": 252,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1"
+							},
+							"name": "SQL_Name_at",
+							"footer": {
+								"name": "Footer1"
+							}
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "SQL Query"
+							},
+							"name": "SQL_Query_at",
+							"footer": {
+								"name": "Footer2"
+							},
+							"width": 242
+						}
+					]
+				},
+				"Save_b": {
+					"type": "button",
+					"text": "Save",
+					"top": 312,
+					"left": 327,
+					"width": 80,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"defaultButton": true,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Enter]",
+					"method": "ObjectMethods/Save_b.4dm"
+				},
+				"Cancel_b": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 312,
+					"left": 234,
+					"width": 73,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Esc]"
+				},
+				"Delete_b": {
+					"type": "button",
+					"text": "Delete Selected...",
+					"top": 312,
+					"left": 17,
+					"width": 133,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Delete_b.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 61,
+	"menuBar": "Menu Bar #1",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

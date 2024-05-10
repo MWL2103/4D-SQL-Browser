@@ -1,0 +1,298 @@
+{
+	"methods": {
+		"set_queryExtraInfo": {
+			"timeStamp": "2022-09-28T20:29:11Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"ProgBar_Open": {
+			"timeStamp": "2022-07-07T20:15:21Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RT_Clck_Clear_Clipboard": {
+			"timeStamp": "2022-07-07T20:15:53Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Macro_DeclareLocalVariables": {
+			"timeStamp": "2022-07-07T20:14:19Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Request2": {
+			"timeStamp": "2022-11-07T23:13:51Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"ProgBar2_Close": {
+			"timeStamp": "2022-07-07T20:15:30Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Ut_Remove_Last_Semicolon": {
+			"timeStamp": "2022-07-07T20:17:09Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"QUIT_4D": {
+			"timeStamp": "2022-07-13T21:13:36Z"
+		},
+		"CopyToClipboard": {
+			"timeStamp": "2022-07-14T12:49:50Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"FilterRows": {
+			"timeStamp": "2022-07-14T12:52:19Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"get_SQL_limit": {
+			"timeStamp": "2022-07-07T20:13:39Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Copy_As_JSON_2_Clipboard": {
+			"timeStamp": "2022-07-14T13:20:20Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Ut_Trim_White_Space": {
+			"timeStamp": "2022-07-07T20:17:17Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"progBar_Close": {
+			"timeStamp": "2022-07-13T21:37:21Z"
+		},
+		"Macro_Unique_Short_Code": {
+			"timeStamp": "2022-07-07T20:14:36Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Remote": {
+			"timeStamp": "2022-07-14T13:21:05Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Ut_Strip_Comments": {
+			"timeStamp": "2022-07-14T13:22:40Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Execute_SQL_String": {
+			"timeStamp": "2022-09-28T20:34:46Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"List_Export": {
+			"timeStamp": "2022-07-14T13:17:35Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Alert2": {
+			"timeStamp": "2022-07-07T20:10:29Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Check_SQL_Connection": {
+			"timeStamp": "2023-02-21T15:09:22Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Saved_Queries_Dialog": {
+			"timeStamp": "2022-07-14T13:30:45Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Arrays": {
+			"timeStamp": "2022-07-14T13:20:25Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Load_Servers": {
+			"timeStamp": "2022-07-07T20:14:00Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RT_Clck_Copy_Column_Title": {
+			"timeStamp": "2022-07-14T13:30:59Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Error_Handler": {
+			"timeStamp": "2022-07-07T20:12:54Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"New_Query_Browser": {
+			"timeStamp": "2022-07-07T20:14:42Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Ut_Object_Value_To_Clipboard": {
+			"timeStamp": "2022-07-15T12:59:55Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RT_Clck_Delete_Tab": {
+			"timeStamp": "2022-07-07T20:16:10Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Calculate_SQL_Offset": {
+			"timeStamp": "2022-07-14T13:33:31Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"DisconnectFromServer": {
+			"timeStamp": "2022-07-11T12:43:11Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RT_Clck_Copy_Cell": {
+			"timeStamp": "2022-07-15T12:59:37Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Open_4D_SQL_Query_Browser": {
+			"timeStamp": "2022-07-07T20:14:58Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RT_Clck_Delete_Column": {
+			"timeStamp": "2022-07-14T13:41:20Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Macro_DeclareLocalVariables2": {
+			"timeStamp": "2022-07-07T20:14:24Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Update_Connections": {
+			"timeStamp": "2022-07-14T13:42:05Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Variables": {
+			"timeStamp": "2022-07-14T13:20:25Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Ut_Encode_HTML_Entities": {
+			"timeStamp": "2022-07-07T20:17:00Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"SQL_Pretty_Print": {
+			"timeStamp": "2022-07-14T13:44:47Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Load_Tables": {
+			"timeStamp": "2022-07-15T13:04:51Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Size_Columns": {
+			"timeStamp": "2022-07-14T13:48:16Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Methods": {
+			"timeStamp": "2022-07-14T13:20:25Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"On_Startup": {
+			"timeStamp": "2022-07-07T20:14:52Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"ProgBar_Init": {
+			"timeStamp": "2022-07-07T20:15:11Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RT_Clck_Append_Column_Title": {
+			"timeStamp": "2022-07-14T13:50:18Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Sort_Table_Columns": {
+			"timeStamp": "2022-07-07T20:16:49Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Confirm2": {
+			"timeStamp": "2022-07-07T20:12:29Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Macro_Code_Object_Explorer": {
+			"timeStamp": "2022-07-07T20:14:14Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Right_Click_Copy": {
+			"timeStamp": "2022-07-14T13:39:22Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Setup_SQL_Error_Handler": {
+			"timeStamp": "2022-07-07T20:16:40Z",
+			"attributes": {
+				"invisible": true
+			}
+		}
+	}
+}

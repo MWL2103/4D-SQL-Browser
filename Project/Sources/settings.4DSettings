@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="6">
+	<com.4d>
+		<interface>
+			<developper display_toolbar="false"/>
+			<user sdi_application="true"/>
+		</interface>
+		<general startup_environnement="1"/>
+		<compiler>
+			<options compilation_path="3" error_file="true" symbol_file="true"/>
+			<typage default_for_button="2"/>
+		</compiler>
+		<server>
+			<network>
+				<options publication_name="4D SQL Browser"/>
+			</network>
+		</server>
+		<web>
+			<standalone_server>
+				<configuration allowHttp="false" allow_ssl="false"/>
+			</standalone_server>
+		</web>
+		<sql>
+			<publication allow_flash_player_requests="false" launch_at_startup="true"/>
+			<engine case_sensitive="false"/>
+		</sql>
+	</com.4d>
+</preferences>

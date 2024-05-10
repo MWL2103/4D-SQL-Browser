@@ -1,0 +1,26 @@
+[
+	{
+		"type": 13
+	},
+	{
+		"type": 66,
+		"formula": "SQL Get current data source:C990"
+	},
+	{
+		"type": 66,
+		"formula": "Error_l"
+	},
+	{
+		"type": 66,
+		"formula": "Error_Method_t"
+	},
+	{
+		"type": 66,
+		"formula": "Error_Stack_cln"
+	},
+	{
+		"type": 66,
+		"formula": "Form:C1466",
+		"expanded": true
+	}
+]

@@ -1,0 +1,10 @@
+//%attributes = {"invisible":true}
+ARRAY BOOLEAN(aoHiddenRow; 0)
+ARRAY BOOLEAN(aoHiddenRow2; 0)
+ARRAY BOOLEAN(LB_QueryOutput; 0)
+ARRAY TEXT(Outside_Calls_at; 0)
+ARRAY TEXT(Query_Left_at; 0)
+ARRAY TEXT(Query_Right_at; 0)
+ARRAY TEXT(Query_Tab_at; 0)
+ARRAY LONGINT(Saved_Queries_ID_al; 0)
+ARRAY TEXT(Saved_Queries_Menu_at; 0)

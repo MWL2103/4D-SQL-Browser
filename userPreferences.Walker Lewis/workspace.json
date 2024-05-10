@@ -1,0 +1,39 @@
+{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483595,
+			"codeDescriptor": {
+				"type": 3,
+				"formName": "SQL_Query_Login",
+				"methodPath": "/SOURCES/Forms/SQL_Query_Login/method.4dm"
+			}
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "form",
+			"id": 222,
+			"formName": "SQL_Query_Login"
+		},
+		{
+			"type": "method",
+			"id": 2147483585,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "SQL_Query_Login",
+				"objectName": "Logout_btn_l",
+				"methodPath": "/SOURCES/Forms/SQL_Query_Login/ObjectMethods/Logout_btn_l.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483627,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Check_SQL_Connection"
+			}
+		}
+	]
+}

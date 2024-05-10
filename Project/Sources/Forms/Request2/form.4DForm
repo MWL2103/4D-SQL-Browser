@@ -1,0 +1,168 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 350,
+	"windowMinHeight": 120,
+	"formSizeAnchor": "RqST_OK_btn_l",
+	"rightMargin": 15,
+	"bottomMargin": 13,
+	"menuBar": "Production Menu Bar",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onCloseBox",
+		"onUnload",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "612pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"RqST_Icon_pic": {
+					"type": "input",
+					"top": 15,
+					"left": 15,
+					"width": 48,
+					"height": 48,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/RqST_Icon_pic.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"RqST_Msg_t": {
+					"type": "input",
+					"top": 15,
+					"left": 78,
+					"width": 400,
+					"height": 17,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/RqST_Msg_t.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"RqST_AutoCloseMsg_t": {
+					"type": "input",
+					"top": 103,
+					"left": 15,
+					"width": 461,
+					"height": 14,
+					"sizingY": "move",
+					"dataSource": "Form:C1466.RqST_AutoCloseMsg_t",
+					"fontFamily": "System Font Regular",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"RqST_Cancel_btn_l": {
+					"type": "button",
+					"top": 80,
+					"left": 305,
+					"width": 79,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"text": "Cancel",
+					"focusable": false,
+					"method": "ObjectMethods/RqST_Cancel_btn_l.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"RqST_OK_btn_l": {
+					"type": "button",
+					"top": 80,
+					"left": 399,
+					"width": 79,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": "[Enter]",
+					"text": "OK",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/RqST_OK_btn_l.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"RqST_Input_t": {
+					"type": "input",
+					"top": 44,
+					"left": 79,
+					"width": 399,
+					"height": 17,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/RqST_Input_t.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange",
+						"onAfterKeystroke"
+					]
+				},
+				"RqST_Names_at": {
+					"type": "dropdown",
+					"top": 41,
+					"left": 78,
+					"width": 22,
+					"height": 22,
+					"sizingY": "move",
+					"focusable": false,
+					"method": "ObjectMethods/RqST_Names_at.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 81,
+					"left": 384,
+					"width": 15,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "transparent"
+				}
+			}
+		}
+	]
+}

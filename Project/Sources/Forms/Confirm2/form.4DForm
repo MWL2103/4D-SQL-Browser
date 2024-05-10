@@ -1,0 +1,144 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 350,
+	"windowMinHeight": 150,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 15,
+	"bottomMargin": 13,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"CoNF_Icon_pic": {
+					"type": "input",
+					"left": 15,
+					"top": 15,
+					"width": 48,
+					"height": 48,
+					"dataSourceTypeHint": "picture",
+					"enterable": false,
+					"focusable": false,
+					"contextMenu": "none",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"events": [
+						"onLoad"
+					],
+					"method": "ObjectMethods/CoNF_Icon_pic.4dm"
+				},
+				"CoNF_Msg_t": {
+					"type": "input",
+					"left": 78,
+					"top": 15,
+					"width": 400,
+					"height": 80,
+					"enterable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"fill": "transparent",
+					"borderStyle": "none",
+					"method": "ObjectMethods/CoNF_Msg_t.4dm",
+					"styledText": true,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"contextMenu": "none"
+				},
+				"CoNF_Cancel_btn_l": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 110,
+					"left": 305,
+					"width": 79,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/CoNF_Cancel_btn_l.4dm",
+					"shortcutAccel": true,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": ".",
+					"sizingX": "move",
+					"sizingY": "move",
+					"focusable": false
+				},
+				"CoNF_OK_btn_l": {
+					"type": "button",
+					"text": "OK",
+					"top": 110,
+					"left": 399,
+					"width": 79,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"defaultButton": true,
+					"method": "ObjectMethods/CoNF_OK_btn_l.4dm",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Return]",
+					"sizingX": "move",
+					"sizingY": "move",
+					"focusable": false
+				},
+				"CoNF_AutoCloseMsg_t": {
+					"type": "input",
+					"left": 15,
+					"top": 133,
+					"width": 463,
+					"height": 14,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.CoNF_AutoCloseMsg_t",
+					"fontSize": 10,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"styledText": true
+				}
+			}
+		}
+	],
+	"geometryStamp": 55,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"formSizeAnchor": "CoNF_OK_btn_l",
+	"method": "method.4dm"
+}

@@ -1,0 +1,887 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 850,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDragOver",
+		"onCloseBox",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange",
+		"onAfterEdit"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 940,
+					"height": 35,
+					"fill": "#BBC5D3",
+					"stroke": "transparent",
+					"sizingX": "grow"
+				},
+				"Input": {
+					"type": "input",
+					"left": 19,
+					"top": 614,
+					"width": 216,
+					"height": 17,
+					"dataSource": "Storage:C1525.DB_ob.Version_t",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"method": "ObjectMethods/Input.4dm",
+					"events": [
+						"onLoad"
+					],
+					"contextMenu": "none",
+					"fontSize": 10,
+					"sizingY": "move"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"text": "Welcome to the SQL Query Browser.\r\rThis application enables you to connect to a 4D system using the 4D's native SQL protocol.  All System and User tables are exposed through this Query Browser.\r\rIn order to connect to a remote 4D system, you must have valid credentials, and the remote must also have SQL Server access enabled.  \r\rAlways carefully consider any DDL (Data Definition Language), DML (Data Manipulation Language), or DCL (Data Control Language) commands to the remote system.",
+					"top": 42,
+					"left": 43,
+					"width": 856,
+					"height": 208,
+					"fontSize": 16,
+					"textAlign": "automatic"
+				},
+				"Login__Message_t": {
+					"type": "input",
+					"left": 19,
+					"top": 254,
+					"width": 477,
+					"height": 337,
+					"enterable": false,
+					"stroke": "#ff0000",
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"Connections_LB": {
+					"type": "listbox",
+					"left": 507,
+					"top": 252,
+					"width": 421,
+					"height": 261,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDoubleClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"movableRows": false,
+					"fill": "automatic",
+					"scrollbarHorizontal": "hidden",
+					"method": "ObjectMethods/Connections_LB.4dm",
+					"dragging": "none",
+					"selectionMode": "single",
+					"sizingY": "grow",
+					"columns": [
+						{
+							"header": {
+								"text": "PK",
+								"name": "Header1"
+							},
+							"name": "LB_Primary_al",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSourceTypeHint": "integer",
+							"width": 50,
+							"enterable": false,
+							"truncateMode": "none"
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Name"
+							},
+							"name": "LB_Name_at",
+							"footer": {
+								"name": "Footer2"
+							},
+							"width": 190,
+							"enterable": false,
+							"truncateMode": "none"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Address"
+							},
+							"name": "LB_Address_at",
+							"footer": {
+								"name": "Footer3"
+							},
+							"width": 100,
+							"enterable": false,
+							"truncateMode": "none"
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Port"
+							},
+							"name": "LB_Port_al",
+							"footer": {
+								"name": "Footer4"
+							},
+							"width": 65,
+							"dataSourceTypeHint": "number",
+							"enterable": false,
+							"truncateMode": "none"
+						}
+					]
+				},
+				"Login_Password_t": {
+					"type": "input",
+					"left": 790,
+					"top": 527,
+					"width": 121,
+					"height": 17,
+					"method": "ObjectMethods/Login_Password_t.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"sizingY": "move"
+				},
+				"Login_Port_l": {
+					"type": "input",
+					"left": 790,
+					"top": 552,
+					"width": 81,
+					"height": 17,
+					"dataSourceTypeHint": "integer",
+					"method": "ObjectMethods/Login_Port_l.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"textAlign": "left",
+					"sizingY": "move"
+				},
+				"Login_btn_l": {
+					"type": "button",
+					"text": "Login",
+					"top": 597,
+					"left": 828,
+					"width": 100,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Login_btn_l.4dm",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Enter]",
+					"defaultButton": true,
+					"sizingY": "move"
+				},
+				"Login_Loopback_btn_l": {
+					"type": "button",
+					"text": "Loopback Address",
+					"top": 597,
+					"left": 633,
+					"width": 140,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Login_Loopback_btn_l.4dm",
+					"sizingY": "move"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Username:",
+					"top": 528,
+					"left": 502,
+					"width": 80,
+					"height": 16,
+					"textAlign": "right",
+					"sizingY": "move"
+				},
+				"Text": {
+					"type": "text",
+					"text": "SQL Query Login",
+					"top": 3,
+					"left": 7,
+					"width": 928,
+					"height": 29,
+					"fontSize": 24,
+					"textAlign": "center"
+				},
+				"Text10": {
+					"type": "text",
+					"text": "Address:",
+					"top": 554,
+					"left": 516,
+					"width": 66,
+					"height": 16,
+					"textAlign": "right",
+					"sizingY": "move"
+				},
+				"Text11": {
+					"type": "text",
+					"text": "Password:",
+					"top": 527,
+					"left": 706,
+					"width": 80,
+					"height": 16,
+					"textAlign": "right",
+					"sizingY": "move"
+				},
+				"Text12": {
+					"type": "text",
+					"text": "Port:",
+					"top": 553,
+					"left": 720,
+					"width": 66,
+					"height": 16,
+					"textAlign": "right",
+					"sizingY": "move"
+				},
+				"Login_User_t": {
+					"type": "input",
+					"left": 586,
+					"top": 528,
+					"width": 121,
+					"height": 17,
+					"method": "ObjectMethods/Login_User_t.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"sizingY": "move"
+				},
+				"Login_Address_t": {
+					"type": "input",
+					"left": 586,
+					"top": 553,
+					"width": 121,
+					"height": 17,
+					"method": "ObjectMethods/Login_Address_t.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"sizingY": "move"
+				}
+			},
+			"entryOrder": [
+				"Login__Message_t",
+				"Connections_LB",
+				"Login_User_t",
+				"Login_Password_t",
+				"Login_Address_t",
+				"Login_Port_l",
+				"Login_btn_l",
+				"Login_Loopback_btn_l"
+			]
+		},
+		{
+			"objects": {
+				"Filter_Value_t": {
+					"type": "subform",
+					"top": 245,
+					"left": 730,
+					"width": 200,
+					"height": 30,
+					"dataSource": "Filter_Value_t",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Filter_Value_t.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					],
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "SQL Query Browser",
+					"top": 3,
+					"left": 7,
+					"width": 928,
+					"height": 29,
+					"fontSize": 24,
+					"textAlign": "center",
+					"sizingX": "grow"
+				},
+				"Window_ID_t": {
+					"type": "input",
+					"left": 810,
+					"top": 9,
+					"width": 122,
+					"height": 17,
+					"enterable": true,
+					"contextMenu": "none",
+					"sizingX": "move"
+				},
+				"Logout_btn_l": {
+					"type": "button",
+					"text": "Logout",
+					"top": 6,
+					"left": 6,
+					"width": 142,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Logout_btn_l.4dm"
+				},
+				"Tables_Tab_at": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 38,
+					"left": 6,
+					"width": 197,
+					"height": 572,
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"<Internal>",
+						"<Remote>"
+					],
+					"method": "ObjectMethods/Tables_Tab_at.4dm",
+					"sizingY": "grow",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"LB_Tables": {
+					"type": "listbox",
+					"left": 11,
+					"top": 165,
+					"width": 186,
+					"height": 440,
+					"events": [
+						"onClick",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"selectionMode": "single",
+					"alternateFill": "automaticAlternate",
+					"sizingY": "grow",
+					"method": "ObjectMethods/LB_Tables.4dm",
+					"rowControlSource": "LB_Tables_Row_Cntrl",
+					"columns": [
+						{
+							"header": {
+								"text": "User Table",
+								"name": "LB_Tables_Title"
+							},
+							"name": "SQL_Tables_at",
+							"footer": {
+								"name": "Footer5"
+							},
+							"width": 172,
+							"enterable": false
+						}
+					]
+				},
+				"SQL_Examples_at": {
+					"type": "dropdown",
+					"top": 40,
+					"left": 470,
+					"width": 23,
+					"height": 22,
+					"dataSource": "",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/SQL_Examples_at.4dm"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Examples:",
+					"top": 43,
+					"left": 398,
+					"width": 70,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Queries:",
+					"top": 43,
+					"left": 576,
+					"width": 70,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"Query_Tab_at": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 70,
+					"left": 214,
+					"width": 715,
+					"height": 165,
+					"dataSourceTypeHint": "arrayText",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDoubleClick"
+					],
+					"sizingX": "grow",
+					"method": "ObjectMethods/Query_Tab_at.4dm",
+					"dataSource": "Query_Tab_at",
+					"sizingY": "grow"
+				},
+				"Text6": {
+					"type": "text",
+					"text": "ID:",
+					"top": 9,
+					"left": 736,
+					"width": 70,
+					"height": 16,
+					"textAlign": "right",
+					"sizingX": "move"
+				},
+				"Style_SQL_cb_l": {
+					"type": "checkbox",
+					"text": "Style SQL",
+					"top": 40,
+					"left": 690,
+					"width": 91,
+					"height": 22,
+					"events": [
+						"onLoad"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/Style_SQL_cb_l.4dm"
+				},
+				"Saved_Queries_Menu_at": {
+					"type": "dropdown",
+					"top": 40,
+					"left": 648,
+					"width": 23,
+					"height": 22,
+					"dataSource": "",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/Saved_Queries_Menu_at.4dm"
+				},
+				"SQL_Query_t": {
+					"type": "input",
+					"left": 220,
+					"top": 100,
+					"width": 325,
+					"height": 129,
+					"styledText": true,
+					"showSelection": true,
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"events": [
+						"onClick",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onAfterEdit"
+					],
+					"scrollbarVertical": "visible",
+					"sizingX": "grow",
+					"method": "ObjectMethods/SQL_Query_t.4dm",
+					"contextMenu": "none",
+					"sizingY": "grow"
+				},
+				"Splitter": {
+					"type": "splitter",
+					"left": 568,
+					"top": 98,
+					"width": 8,
+					"height": 134,
+					"sizingX": "fixed",
+					"sizingY": "grow"
+				},
+				"Right_Text_t": {
+					"type": "input",
+					"left": 579,
+					"top": 100,
+					"width": 329,
+					"height": 129,
+					"styledText": true,
+					"showSelection": true,
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"events": [
+						"onClick",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					],
+					"scrollbarVertical": "visible",
+					"sizingX": "grow",
+					"contextMenu": "automatic",
+					"sizingY": "grow"
+				},
+				"QueryExtraInfo_t": {
+					"type": "input",
+					"left": 220,
+					"top": 611,
+					"width": 704,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"contextMenu": "none",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"sizingX": "grow",
+					"sizingY": "move"
+				},
+				"QueryOnClick_cb_l": {
+					"type": "checkbox",
+					"text": "Query on click",
+					"top": 67,
+					"left": 15,
+					"width": 122,
+					"height": 22,
+					"events": [
+						"onLoad"
+					],
+					"method": "ObjectMethods/QueryOnClick_cb_l.4dm",
+					"focusable": false
+				},
+				"Text7": {
+					"type": "text",
+					"text": "Opt = Describe Table (User Tables only)",
+					"top": 92,
+					"left": 10,
+					"width": 187,
+					"height": 16,
+					"textAlign": "automatic",
+					"fontSize": 11
+				},
+				"Text8": {
+					"type": "text",
+					"text": "Opt-Shift = Record count",
+					"top": 106,
+					"left": 10,
+					"width": 187,
+					"height": 16,
+					"textAlign": "automatic",
+					"fontSize": 11
+				},
+				"Text9": {
+					"type": "text",
+					"text": "Opt-Shift-Control = Sort columns",
+					"top": 120,
+					"left": 10,
+					"width": 187,
+					"height": 16,
+					"textAlign": "automatic",
+					"fontSize": 11
+				},
+				"SQL_Execute_btnX_l": {
+					"type": "button",
+					"text": "Execute",
+					"top": 6,
+					"left": 238,
+					"width": 80,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "",
+					"method": "ObjectMethods/SQL_Execute_btnX_l.4dm",
+					"defaultButton": false,
+					"stroke": "#ff0000",
+					"visibility": "hidden",
+					"focusable": false
+				},
+				"SQL_Limit_at": {
+					"type": "dropdown",
+					"top": 249,
+					"left": 380,
+					"width": 92,
+					"height": 22,
+					"dataSource": "",
+					"events": [
+						"onLoad"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/SQL_Limit_at.4dm"
+				},
+				"Text13": {
+					"type": "text",
+					"text": "Limit rows:",
+					"top": 252,
+					"left": 308,
+					"width": 70,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"SQL_Export_at": {
+					"type": "dropdown",
+					"top": 249,
+					"left": 550,
+					"width": 23,
+					"height": 22,
+					"dataSource": "",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/SQL_Export_at.4dm"
+				},
+				"Text14": {
+					"type": "text",
+					"text": "Export:",
+					"top": 252,
+					"left": 478,
+					"width": 70,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"SQL_Filter_cb_l": {
+					"type": "checkbox",
+					"text": "Filter",
+					"top": 249,
+					"left": 670,
+					"width": 59,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move",
+					"focusable": false
+				},
+				"Strip_Comments_cb_l": {
+					"type": "checkbox",
+					"text": "Strip Comments",
+					"top": 40,
+					"left": 215,
+					"width": 129,
+					"height": 22,
+					"events": [
+						"onLoad"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/Strip_Comments_cb_l.4dm"
+				},
+				"SQL_Auto_Size_cb_l": {
+					"type": "checkbox",
+					"text": "Auto Size",
+					"top": 249,
+					"left": 588,
+					"width": 79,
+					"height": 22,
+					"events": [
+						"onLoad"
+					],
+					"sizingX": "move",
+					"method": "ObjectMethods/SQL_Auto_Size_cb_l.4dm",
+					"focusable": false
+				},
+				"Horizontal_Splitter_l": {
+					"type": "splitter",
+					"left": 211,
+					"top": 239,
+					"width": 721,
+					"height": 6,
+					"sizingX": "grow",
+					"splitterMode": "resize",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onDrop",
+						"onDragOver",
+						"onPrintingDetail",
+						"onUnload",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove",
+						"onBeginDragOver"
+					]
+				},
+				"SQL_Table_Sets_at": {
+					"type": "dropdown",
+					"left": 10,
+					"top": 141,
+					"width": 188,
+					"height": 22,
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"sizingY": "fixed",
+					"focusable": false,
+					"method": "ObjectMethods/SQL_Table_Sets_at.4dm"
+				},
+				"LB_QueryOutput": {
+					"type": "listbox",
+					"left": 217,
+					"top": 279,
+					"width": 707,
+					"height": 328,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"dataSource": "LB_QueryOutput",
+					"rowControlSource": "aoHiddenRow2",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"method": "ObjectMethods/LB_QueryOutput.4dm",
+					"columns": []
+				},
+				"Audible_cb_l": {
+					"type": "checkbox",
+					"text": "Audible Events",
+					"top": 60,
+					"left": 215,
+					"width": 129,
+					"height": 22,
+					"events": [
+						"onLoad"
+					],
+					"focusable": false,
+					"method": "ObjectMethods/Audible_cb_l.4dm"
+				},
+				"SQL_Execute_btn_l": {
+					"type": "button",
+					"text": "Execute",
+					"top": 248,
+					"left": 217,
+					"width": 80,
+					"height": 22,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onAlternateClick",
+						"onLongClick"
+					],
+					"style": "roundedBevel",
+					"method": "ObjectMethods/SQL_Execute_btn_l.4dm",
+					"textPlacement": "center",
+					"stroke": "automatic",
+					"dropping": "none",
+					"defaultButton": false,
+					"display": true,
+					"popupPlacement": "separated",
+					"focusable": false,
+					"shortcutAccel": true,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "e",
+					"icon": "",
+					"borderStyle": "none",
+					"iconFrames": 1
+				},
+				"Spinner_l": {
+					"type": "spinner",
+					"left": 270,
+					"top": 250,
+					"width": 18,
+					"height": 18
+				},
+				"SQL_Trap_Enter_Key_btn_l": {
+					"type": "pictureButton",
+					"left": 177,
+					"top": 8,
+					"width": 1,
+					"height": 1,
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Enter]",
+					"visibility": "visible"
+				}
+			},
+			"entryOrder": [
+				"Logout_btn_l",
+				"Window_ID_t",
+				"Strip_Comments_cb_l",
+				"SQL_Examples_at",
+				"Saved_Queries_Menu_at",
+				"Style_SQL_cb_l",
+				"QueryOnClick_cb_l",
+				"SQL_Table_Sets_at",
+				"SQL_Query_t",
+				"Right_Text_t",
+				"LB_Tables",
+				"SQL_Execute_btnX_l",
+				"SQL_Limit_at",
+				"SQL_Export_at",
+				"SQL_Auto_Size_cb_l",
+				"SQL_Filter_cb_l",
+				"Filter_Value_t",
+				"LB_QueryOutput",
+				"QueryExtraInfo_t",
+				"Audible_cb_l",
+				"SQL_Execute_btn_l"
+			]
+		}
+	],
+	"geometryStamp": 1223,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm",
+	"menuBar": "Menu Bar #1"
+}

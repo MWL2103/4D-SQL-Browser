@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="4D SQL Browser" uuid="E98FF464AD4E41F185E8E4D383859CCB" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Servers" uuid="614CE75399EE4B72AD76032ACFC9E307" id="1" hide_in_REST="true">
+		<field name="ID_pk" uuid="78B176E7B58B4760AA4CF35D9161F403" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="IP_Address" uuid="E1F51FEE313B4287B253C4B1F62C9D6F" type="10" limiting_length="255" unique="true" never_null="true" id="2" hide_in_REST="true"/>
+		<field name="Port" uuid="42CE73A7B9E54635A8219256F07AA58C" type="4" never_null="true" id="3" hide_in_REST="true"/>
+		<field name="Name" uuid="927DE7CDF07C41A8BAF35B51C2D26259" type="10" limiting_length="80" never_null="true" id="4" hide_in_REST="true"/>
+		<primary_key field_name="ID_pk" field_uuid="78B176E7B58B4760AA4CF35D9161F403"/>
+		<table_extra>
+			<comment format="rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red29\green29\blue29;}
+{\*\expandedcolortbl;;\cssrgb\c14902\c14902\c14902;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\partightenfactor0
+
+\f0\fs20 \cf2 \ulnone Contains previous server connections}]]></comment>
+			<comment format="text">Contains previous server connections</comment>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="0" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Users" uuid="80C37FFF713E4758ACBCC005EB89E8FD" id="2" hide_in_REST="true">
+		<field name="ID_pk" uuid="D9146C69F8FB42FEA9619C0545F44E5D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Servers_ID_fk" uuid="7553DCA1E8EB4AC0B11F62BFF1B4C1F9" type="4" never_null="true" id="2"/>
+		<field name="Name" uuid="C0C5BCDF01D44647B461C200F7D41349" type="10" limiting_length="255" never_null="true" id="3"/>
+		<primary_key field_name="ID_pk" field_uuid="D9146C69F8FB42FEA9619C0545F44E5D"/>
+		<table_extra output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="200" top="0" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Queries" uuid="C9DD354F50F44E759F294B3A1E172404" id="3" hide_in_REST="true">
+		<field name="ID_pk" uuid="4EA26E513F974B149F3A201FE147E0A7" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Users_ID_fk" uuid="9BF5F4B75CA54088BF4FC135D7055239" type="4" never_null="true" id="2" hide_in_REST="true"/>
+		<field name="Name" uuid="DA4C92B831BF4A1CA2280A4FF772DD85" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="SQL_Query" uuid="581351AA078D4A6BB368C19550E9FB74" type="10" never_null="true" id="4" hide_in_REST="true"/>
+		<primary_key field_name="ID_pk" field_uuid="4EA26E513F974B149F3A201FE147E0A7"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="400" top="0" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="54E94C79A8D448D3AD1377CB7B0BCA03" name_Nto1="Link_1" name_1toN="Link_1_return" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="7553DCA1E8EB4AC0B11F62BFF1B4C1F9" name="Servers_ID_fk">
+				<table_ref uuid="80C37FFF713E4758ACBCC005EB89E8FD" name="Users"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="78B176E7B58B4760AA4CF35D9161F403" name="ID_pk">
+				<table_ref uuid="614CE75399EE4B72AD76032ACFC9E307" name="Servers"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="38" blue="0" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="B3F6866BBC5E4F798BF579394ECE2004" name_Nto1="Link_2" name_1toN="Link_2_return" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="9BF5F4B75CA54088BF4FC135D7055239" name="Users_ID_fk">
+				<table_ref uuid="C9DD354F50F44E759F294B3A1E172404" name="Queries"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="D9146C69F8FB42FEA9619C0545F44E5D" name="ID_pk">
+				<table_ref uuid="80C37FFF713E4758ACBCC005EB89E8FD" name="Users"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="38" blue="0" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="273F2CCA286447BA94D799A46EE5B8B0" type="1">
+		<field_ref uuid="E1F51FEE313B4287B253C4B1F62C9D6F" name="IP_Address">
+			<table_ref uuid="614CE75399EE4B72AD76032ACFC9E307" name="Servers"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="2F584B0510124B47AE314625190F8EB8" type="7">
+		<field_ref uuid="78B176E7B58B4760AA4CF35D9161F403" name="ID_pk">
+			<table_ref uuid="614CE75399EE4B72AD76032ACFC9E307" name="Servers"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="350C322666FB440BB856785928FBB8B2" type="7">
+		<field_ref uuid="D9146C69F8FB42FEA9619C0545F44E5D" name="ID_pk">
+			<table_ref uuid="80C37FFF713E4758ACBCC005EB89E8FD" name="Users"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="FDB52C7044D24A849484653B88887DFB" type="7">
+		<field_ref uuid="4EA26E513F974B149F3A201FE147E0A7" name="ID_pk">
+			<table_ref uuid="C9DD354F50F44E759F294B3A1E172404" name="Queries"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

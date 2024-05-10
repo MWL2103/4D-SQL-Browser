@@ -1,0 +1,872 @@
+{
+	"Sources/Methods/On_Startup.4dm": {
+		"startSelection": 55,
+		"endSelection": 55,
+		"firstSelectedLine": 28,
+		"lastSelectedLine": 28,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:52.826Z"
+	},
+	"Sources/Methods/Right_Click_Copy.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:39:22.258Z"
+	},
+	"Sources/Methods/Macro_Code_Object_Explorer.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:14.375Z"
+	},
+	"Sources/Methods/Macro_DeclareLocalVariables2.4dm": {
+		"startSelection": 0,
+		"endSelection": 14,
+		"firstSelectedLine": 75,
+		"lastSelectedLine": 75,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:24.451Z"
+	},
+	"Sources/Methods/Macro_DeclareLocalVariables.4dm": {
+		"startSelection": 0,
+		"endSelection": 4,
+		"firstSelectedLine": 38,
+		"lastSelectedLine": 38,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:19.761Z"
+	},
+	"Sources/Methods/Macro_Unique_Short_Code.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:36.514Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Connections_LB.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 45,
+		"lastSelectedLine": 45,
+		"folding": [
+			27,
+			52
+		],
+		"bookmarks": [],
+		"stamp": "2022-07-05T22:10:44.360Z"
+	},
+	"Sources/Methods/Confirm2.4dm": {
+		"startSelection": 8,
+		"endSelection": 28,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 28,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:12:29.246Z"
+	},
+	"Sources/Forms/Confirm2/ObjectMethods/CoNF_Icon_pic.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-04T15:45:19.258Z"
+	},
+	"Sources/Forms/Confirm2/ObjectMethods/CoNF_Msg_t.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-04T15:48:28.686Z"
+	},
+	"Sources/Forms/Confirm2/ObjectMethods/CoNF_Cancel_btn_l.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-04T15:51:06.987Z"
+	},
+	"Sources/Forms/Confirm2/ObjectMethods/CoNF_OK_btn_l.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-04T15:53:12.686Z"
+	},
+	"Sources/Methods/Ut_Encode_HTML_Entities.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:17:00.891Z"
+	},
+	"Sources/Forms/Confirm2/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 136,
+		"lastSelectedLine": 136,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:18:46.162Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_btn_l.4dm": {
+		"startSelection": 90,
+		"endSelection": 90,
+		"firstSelectedLine": 99,
+		"lastSelectedLine": 99,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2023-01-26T15:15:13.553Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_User_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 37,
+		"lastSelectedLine": 37,
+		"folding": [
+			34,
+			50
+		],
+		"bookmarks": [],
+		"stamp": "2022-06-06T01:02:20.123Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_Address_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 42,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-06T01:00:18.159Z"
+	},
+	"Sources/Methods/Open_4D_SQL_Query_Browser.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:58.818Z"
+	},
+	"Sources/Methods/New_Query_Browser.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 23,
+		"lastSelectedLine": 23,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:42.220Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Input.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-05T15:37:28.846Z"
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:19:16.149Z"
+	},
+	"Sources/Forms/SQL_Query_Login/method.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 93,
+		"lastSelectedLine": 93,
+		"folding": [
+			103,
+			111,
+			134
+		],
+		"bookmarks": [],
+		"stamp": "2023-01-26T14:57:54.207Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_Port_l.4dm": {
+		"startSelection": 13,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-05T23:36:31.724Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_Password_t.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T15:29:49.512Z"
+	},
+	"Sources/Methods/Update_Connections.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:42:05.345Z"
+	},
+	"Sources/Methods/DisconnectFromServer.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-11T12:43:11.048Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Logout_btn_l.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2023-08-18T15:38:46.364Z"
+	},
+	"Sources/Methods/Load_Tables.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 62,
+		"lastSelectedLine": 62,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T13:04:51.485Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Tables_Tab_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 4,
+		"firstSelectedLine": 59,
+		"lastSelectedLine": 59,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T13:47:40.066Z"
+	},
+	"Sources/Methods/Setup_SQL_Error_Handler.4dm": {
+		"startSelection": 0,
+		"endSelection": 13,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:16:40.200Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_User_t.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-08T13:32:13.763Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_Address_t.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-08T13:33:42.228Z"
+	},
+	"Sources/Methods/Error_Handler.4dm": {
+		"startSelection": 0,
+		"endSelection": 4,
+		"firstSelectedLine": 73,
+		"lastSelectedLine": 73,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:12:54.626Z"
+	},
+	"Sources/Methods/Load_Servers.4dm": {
+		"startSelection": 24,
+		"endSelection": 75,
+		"firstSelectedLine": 39,
+		"lastSelectedLine": 39,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:14:00.658Z"
+	},
+	"Sources/Methods/Remote.4dm": {
+		"startSelection": 43,
+		"endSelection": 58,
+		"firstSelectedLine": 31,
+		"lastSelectedLine": 31,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:21:05.920Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/LB_Tables.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-08-16T18:47:18.459Z"
+	},
+	"Sources/Methods/get_SQL_limit.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:13:39.326Z"
+	},
+	"Sources/Methods/Check_SQL_Connection.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 56,
+		"lastSelectedLine": 56,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2023-02-21T15:09:22.951Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SearchPicker.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T16:01:57.404Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Filter_Value_t.4dm": {
+		"startSelection": 5,
+		"endSelection": 5,
+		"firstSelectedLine": 77,
+		"lastSelectedLine": 77,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T13:31:58.875Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Login_Loopback_btn_l.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T22:06:34.358Z"
+	},
+	"Sources/Methods/Calculate_SQL_Offset.4dm": {
+		"startSelection": 76,
+		"endSelection": 82,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:33:31.743Z"
+	},
+	"Sources/Methods/Execute_SQL_String.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-09-28T20:34:46.459Z"
+	},
+	"Sources/Methods/Ut_Strip_Comments.4dm": {
+		"startSelection": 32,
+		"endSelection": 32,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:22:40.414Z"
+	},
+	"Sources/Methods/Ut_Trim_White_Space.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:17:17.726Z"
+	},
+	"Sources/Methods/Ut_Remove_Last_Semicolon.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:17:09.104Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Strip_Comments_cb_l.4dm": {
+		"startSelection": 34,
+		"endSelection": 53,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T20:07:15.472Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Export_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T13:02:31.736Z"
+	},
+	"Sources/Methods/List_Export.4dm": {
+		"startSelection": 14,
+		"endSelection": 30,
+		"firstSelectedLine": 43,
+		"lastSelectedLine": 43,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:17:35.566Z"
+	},
+	"Sources/Methods/ProgBar_Open.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:15:21.299Z"
+	},
+	"Sources/Methods/ProgBar_Init.4dm": {
+		"startSelection": 11,
+		"endSelection": 23,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:15:11.446Z"
+	},
+	"Sources/Methods/ProgBar2_Close.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:15:30.444Z"
+	},
+	"Sources/Methods/CopyToClipboard.4dm": {
+		"startSelection": 40,
+		"endSelection": 52,
+		"firstSelectedLine": 153,
+		"lastSelectedLine": 153,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T12:49:50.348Z"
+	},
+	"Sources/Methods/Copy_As_JSON_2_Clipboard.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:20:20.297Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Auto_Size_cb_l.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T20:36:51.883Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Query_Tab_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [
+			20,
+			34
+		],
+		"bookmarks": [],
+		"stamp": "2022-07-07T14:59:43.768Z"
+	},
+	"Sources/Methods/RT_Clck_Delete_Tab.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:16:10.203Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/QueryOnClick_cb_l.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T22:12:46.279Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Execute_btn_l.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 49,
+		"lastSelectedLine": 49,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2023-02-15T21:02:30.733Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Style_SQL_cb_l.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-06-25T22:31:46.912Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Query_t.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-08-18T15:28:00.584Z"
+	},
+	"Sources/Methods/Ut_Object_Value_To_Clipboard.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 28,
+		"lastSelectedLine": 28,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T12:59:55.013Z"
+	},
+	"Sources/Methods/Sort_Table_Columns.4dm": {
+		"startSelection": 4,
+		"endSelection": 18,
+		"firstSelectedLine": 23,
+		"lastSelectedLine": 23,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:16:49.313Z"
+	},
+	"Sources/Methods/set_queryExtraInfo.4dm": {
+		"startSelection": 61,
+		"endSelection": 61,
+		"firstSelectedLine": 33,
+		"lastSelectedLine": 33,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-09-28T20:29:11.110Z"
+	},
+	"Sources/Methods/SQL_Pretty_Print.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [
+			24
+		],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:44:47.516Z"
+	},
+	"Sources/Methods/FilterRows.4dm": {
+		"startSelection": 56,
+		"endSelection": 56,
+		"firstSelectedLine": 190,
+		"lastSelectedLine": 190,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T12:52:19.929Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Limit_at.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-05T12:46:05.061Z"
+	},
+	"Sources/Methods/Size_Columns.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:48:16.496Z"
+	},
+	"Sources/Forms/Alert2/ObjectMethods/ALrT_OK_btn_l.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-05T20:34:32.744Z"
+	},
+	"Sources/Forms/Alert2/ObjectMethods/ALrT_Icon_pic.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-05T20:45:19.473Z"
+	},
+	"Sources/Forms/Alert2/ObjectMethods/ALrT_Msg_t.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 34,
+		"lastSelectedLine": 34,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-05T20:57:10.263Z"
+	},
+	"Sources/Forms/Alert2/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 76,
+		"lastSelectedLine": 76,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:18:40.035Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/LB_QueryOutput.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 112,
+		"lastSelectedLine": 112,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T12:49:09.462Z"
+	},
+	"Sources/Methods/RT_Clck_Copy_Column_Title.4dm": {
+		"startSelection": 75,
+		"endSelection": 75,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:30:59.291Z"
+	},
+	"Sources/Methods/RT_Clck_Append_Column_Title.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:50:18.048Z"
+	},
+	"Sources/Methods/RT_Clck_Clear_Clipboard.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 58,
+		"lastSelectedLine": 58,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:15:53.928Z"
+	},
+	"Sources/Methods/RT_Clck_Copy_Cell.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 83,
+		"lastSelectedLine": 83,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T12:59:37.101Z"
+	},
+	"Sources/Methods/RT_Clck_Delete_Column.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:41:20.254Z"
+	},
+	"Sources/Methods/Saved_Queries_Dialog.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T13:30:45.756Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Examples_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-05T21:52:44.939Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Saved_Queries_Menu_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T14:07:00.334Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/Horizontal_Splitter_l.4dm": {
+		"startSelection": 0,
+		"endSelection": 4,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-06T13:08:44.775Z"
+	},
+	"Sources/Methods/Alert2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 79,
+		"lastSelectedLine": 79,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:10:29.609Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Table_Sets_at.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 23,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T13:45:19.141Z"
+	},
+	"Sources/Methods/Compiler_Arrays.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:12:07.404Z"
+	},
+	"Sources/Methods/Compiler_Methods.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:12:13.781Z"
+	},
+	"Sources/Methods/Compiler_Variables.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-07T20:12:22.733Z"
+	},
+	"Sources/Methods/QUIT_4D.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 61,
+		"lastSelectedLine": 61,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-13T21:13:36.522Z"
+	},
+	"Sources/Methods/progBar_Close.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-13T21:37:21.950Z"
+	},
+	"Sources/Forms/Saved_Queries/method.4dm": {
+		"startSelection": 89,
+		"endSelection": 89,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T14:01:44.501Z"
+	},
+	"Sources/Forms/Saved_Queries/ObjectMethods/Delete_b.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 34,
+		"lastSelectedLine": 34,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T14:07:53.342Z"
+	},
+	"Sources/Forms/Saved_Queries/ObjectMethods/Save_b.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 31,
+		"lastSelectedLine": 31,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-14T14:11:32.611Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/LB_QueryOutputX.4dm": {
+		"startSelection": 49,
+		"endSelection": 49,
+		"firstSelectedLine": 100,
+		"lastSelectedLine": 100,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-05T21:32:22.670Z"
+	},
+	"Sources/Forms/SQL_Query_Login/ObjectMethods/SQL_Execute_btnX_l.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-10-07T13:46:04.101Z"
+	},
+	"Sources/Methods/Request2.4dm": {
+		"startSelection": 8,
+		"endSelection": 23,
+		"firstSelectedLine": 108,
+		"lastSelectedLine": 108,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-11-07T23:13:51.000Z"
+	}
+}

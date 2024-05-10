@@ -1,0 +1,121 @@
+[
+	{
+		"line": 36,
+		"method": {
+			"type": 1,
+			"methodName": "Update_Connections"
+		}
+	},
+	{
+		"line": 70,
+		"method": {
+			"type": 1,
+			"methodName": "Update_Connections"
+		}
+	},
+	{
+		"line": 49,
+		"method": {
+			"type": 2,
+			"formName": "SQL_Query_Login",
+			"objectName": "Connections_LB",
+			"methodPath": "/SOURCES/Forms/SQL_Query_Login/ObjectMethods/Connections_LB.4dm"
+		}
+	},
+	{
+		"line": 30,
+		"method": {
+			"type": 1,
+			"methodName": "Ut_Object_Value_To_Clipboard"
+		}
+	},
+	{
+		"line": 27,
+		"method": {
+			"type": 1,
+			"methodName": "Sort_Table_Columns"
+		}
+	},
+	{
+		"line": 43,
+		"method": {
+			"type": 2,
+			"formName": "SQL_Query_Login",
+			"objectName": "LB_Tables",
+			"methodPath": "/SOURCES/Forms/SQL_Query_Login/ObjectMethods/LB_Tables.4dm"
+		}
+	},
+	{
+		"line": 143,
+		"method": {
+			"type": 3,
+			"formName": "SQL_Query_Login",
+			"methodPath": "/SOURCES/Forms/SQL_Query_Login/method.4dm"
+		}
+	},
+	{
+		"line": 109,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 110,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 131,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 132,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 148,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 149,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 158,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 159,
+		"method": {
+			"type": 1,
+			"methodName": "FilterRows"
+		}
+	},
+	{
+		"line": 66,
+		"method": {
+			"type": 2,
+			"formName": "SQL_Query_Login",
+			"objectName": "Filter_Value_t",
+			"methodPath": "/SOURCES/Forms/SQL_Query_Login/ObjectMethods/Filter_Value_t.4dm"
+		}
+	}
+]
